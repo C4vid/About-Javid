@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  gap: 200px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+input {
+  margin-bottom: 30px;
+}
+
+textarea {
+  margin-bottom: 30px;
+}
+
+.left-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  width: 400px;
+}/*# sourceMappingURL=style.css.map */

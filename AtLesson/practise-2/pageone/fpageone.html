@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="left">
+        <span>Full Name:</span>
+        <input type="text">
+        <span>Email;</span>
+        <input type="email">
+        <span>Contact Phone:</span>
+        <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="+994-123-45-678"
+        pattern="+[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{3}"
+      /> <br>
+        <span>Education</span>
+        <section>
+            <option value="Bakalavr">Bakalavr</option>
+            <option value="Abutrient">Abutrient</option>
+        </section>
+        <Fieldset>
+            <legend>Sex</legend>
+            <input type="radio" id="Woman" name="Gender" value="Woman" />
+            <label for="Woman">Woman</label> <br>
+            <input type="radio" id="Man" name="Gender" value="Man" />
+            <label for="Man">Man</label> <br> <br>
+        </Fieldset>
+        <fieldset>
+            <legend>Strong Sides</legend>
+            <input type="checkbox" /><label for="Strongsides">Will Code for Food</label>
+            <input type="checkbox" /><label for="Strongsides">Hate Vacations</label
+            >
+            <input type="checkbox" /><label for="Other">Other</label>
+        </fieldset>
+
+        <p>Desribe your experience</p>
+        <textarea name="experience" id="experience" cols="30" rows="10"></textarea>
+        <table>
+            <tr>
+                <th>Days</th>
+                <th>Worktime</th>
+                <th>Break</th>
+            </tr>
+            <tr>
+                <td>Mon-Fri</td>
+                <td>09:00-17:00</td>
+                <td>12:00-12:30</td>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td>09:00-19:00</td>
+                <td>12:00-12:15</td>
+            </tr>
+            <tr>
+                <td>Sun</td>
+                <td>06:00-22:00</td>
+                <td>None</td>
+            </tr>
+        </table>
+
+    </form>
+    <div class="right">
+        <fieldset>
+            <legend>We have Offices In</legend>
+            <ul>
+                <li>New York</li>
+                <li>London </li>
+                <li>Paris</li>
+                
+            </ul>    
+
+        </fieldset>
+    </div>
+</body>
+</html>

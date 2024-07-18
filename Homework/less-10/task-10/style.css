@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.container{
+    margin-top: 100px;
+    margin-left: 22%;
+}
+.links{
+    margin-left: 25px;
+    margin-bottom: 40px;
+    a{
+        text-decoration: none;
+        font-size: 30px;
+        padding-left: 20px;
+        color: black;
+    }
+}
+h1{
+
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+}
+.grid10{
+    display: grid;
+    grid-template-columns: 250px repeat(3, 1fr);
+    width: 1100px;
+    height: 600px;
+    background-color: #000;
+    color: #fff;
+}
+.grid10 > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        padding: 20px;
+    }
+}
+
+.item1{
+    grid-column: 1 / 2;
+}
+.item5{
+    grid-row: 2/ 4;
+}
+.item7{
+    grid-row: 2 / 4;
+}
+.item6{
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+}
+
+.item1, .item4,.item6{
+    background-color: rgb(46, 45, 45);
+}
+.item2, .item8{
+    background-color: dodgerblue;
+}
+.item5, .item7{
+    background-color: rgb(12, 50, 87);
+}
+.item3, .item9{
+    background-color: rgb(6, 145, 99);
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header{
+    background-image: url('../images/sea.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+    height: 1000px;
+}
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul  li a{
+    color: #fff;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 200px;
+    color: #ffffff; 
+    width: 560px;
+    h1{
+        font-size: 100px;
+    }
+    p{
+        font-size: 30px;
+    }
+    .btn{
+        height: 70px;
+        width: 190px;
+        font-size: 25px;
+        background-image: linear-gradient(to right,#005acf, #00c8cf );
+    }
+}

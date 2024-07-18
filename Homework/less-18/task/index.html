@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Word Generator</title>
+</head>
+<body>
+	<h1>Random ildirim vurma Generator</h1>
+	<p>Your random word will appear here:</p>
+	<button id="generateButton">Generate Word</button>
+	<div id="word"></div>
+    <a href="./index.html"><button>refresh at</button></a>
+	<script>
+		const words = ["ildirim vurdu", "ildirim vurmadi"];
+
+		const generateButton = document.getElementById("generateButton");
+
+		function generateRandomWord() {
+			const randomIndex = Math.floor(Math.random() * words.length);
+			const randomWord = words[randomIndex];
+			document.getElementById("word").textContent = `Random Word: ${randomWord}`;
+		}
+
+		generateButton.addEventListener("click", generateRandomWord);
+	</script>
+</body>
+</html>

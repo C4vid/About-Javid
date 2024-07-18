@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pagetwo/pagetwo.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form: Dance Club</h1>
+
+    <form >
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Ic No:</th>
+                <td><input type="number">- <input type="number">- <input type="number"> </td>
+            </tr>
+            <tr>
+                <th>Adress:</th>
+                <td><textarea name="adress" id="adress" cols="69" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td><label for="Woman">Woman</label><input type="radio" id="Woman" name="Gender" value="Woman" />
+                    <label for="Man">Man</label><input type="radio" id="Man" name="Gender" value="Man" />
+                </td>
+
+            </tr>
+            <tr>
+                <th>Dance Type:</th>
+                <td><input type="checkbox">Zapin
+                <input type="checkbox">Joket
+                <input type="checkbox">Inang
+                <input type="checkbox">Lion Dance </td>
+            </tr>
+
+            <tr>
+                <th>Competation</th>
+                <td>
+                    <select size="3">
+                        <option value="StateLevel">State Level</option>
+                        <option value="NationalLevel">National Level</option>
+                        <option value="StateNationallevel">StateNational Level</option>
+                    </select>
+
+                </td>
+            </tr>
+            <tr><th>Nationality:</th>
+                <td><select>
+                    <option value="please Select"> please Select</option>
+                    <option value="please Select"> please Select</option>
+                    <option value="please Select"> please Select</option>
+                    <option value="please Select"> please Select</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td><input type="password"></td>
+            </tr>
+        </table>
+        
+        <input type="reset" value="Cancel">
+    </form>
+    <a href="/pageone/fpageone.html"><button>Register Me</button></a>
+</body>
+</html>
